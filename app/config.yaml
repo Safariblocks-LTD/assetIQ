@@ -1,0 +1,11 @@
+# app/config.yaml
+model:
+  best_lambda: 0.25
+  best_p_up: 0.50
+  best_mu_jump_up: 0.08
+  best_mu_jump_down: -0.05
+  delta_t: 1.0
+
+api:
+  host: "0.0.0.0"
+  port: 8000

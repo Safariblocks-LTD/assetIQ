@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+prophet
+pmdarima
+scikit-learn
+matplotlib
+arch
+numpy>=1.24.0
+pandas
+PyYAML
+pytest

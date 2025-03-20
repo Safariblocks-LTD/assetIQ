@@ -20,23 +20,29 @@ AssetIQ is a novel, real-time asset valuation system for smart connected devices
 
 2. **Create a Virtual Environment and Install Dependencies:**
 
+```
     python -m venv venv
     source venv/bin/activate  # On Windows: venv\Scripts\activate
     pip install -r requirements.txt
+```
 
 3. **Run Unit Tests:**
 
+```
     pytest tests/
+```
 
 4. **Run the API Locally:**
-
+```
     uvicorn app.main:app --reload
+```
 
 Access the API at <http://localhost:8000>
 
 5. **Build and Run Docker Container(if built up):**
-
+```
     docker build -t assetIQ 
     docker run -p 8000:8000 assetIQ
+```
 
 

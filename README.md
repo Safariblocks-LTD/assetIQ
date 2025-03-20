@@ -10,10 +10,6 @@ AssetIQ is a novel, real-time asset valuation system for smart connected devices
 - RESTful API service using FastAPI.
 - Containerized deployment with Docker and Kubernetes ready.
 
-## Project Structure
-AssetIQ_Valuator/ ├── app/ │ ├── init.py │ ├── config.yaml │ ├── main.py │ ├── model.py │ └── utils.py ├── data/ │ └── historical/ │ ├── smartphones.csv │ ├── tablets.csv │ ├── laptops.csv │ └── smartwatches.csv ├── docs/ │ ├── patent_documentation.pdf │ ├── user_manual.pdf │ └── architecture_diagram.png ├── tests/ │ ├── test_api.py │ └── test_model.py ├── Dockerfile ├── requirements.txt └── README.md
-
-
 
 ## Setup Instructions
 
